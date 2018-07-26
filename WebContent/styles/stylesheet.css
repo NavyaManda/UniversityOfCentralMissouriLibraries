@@ -1,0 +1,95 @@
+
+form label {
+	display: inline-block;
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+.error {
+	color: red;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+label.error {
+	display: inline;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+	border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=number] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input:focus::-webkit-input-older {
+	color: transparent;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+	h1.resizable {
+		font-size: 63px;
+	}
+}
+
+.container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+}
+
+main-header {
+	text-align: center: 
+
+	text-color: red;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.previous {
+    background-color: #fff;
+    color: black;
+}
